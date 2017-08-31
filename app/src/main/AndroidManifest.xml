@@ -18,7 +18,9 @@
         <meta-data
             android:name="AA_DB_VERSION"
             android:value="0" />
-
+        <meta-data
+            android:name="AA_MODELS"
+            android:value="com.easyappointments.db.SettingsModel"/>
         <activity
             android:name=".LoginActivity"
             android:label="@string/app_name">
